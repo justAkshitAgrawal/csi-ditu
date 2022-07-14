@@ -9,7 +9,7 @@ function AboutUs() {
       <div className="flex flex-col items-center h-screen p-4 overflow-y-hidden bg-black heropattern-circuitboard-gray-900">
         <img src={logo} className="w-16 h-16 mt-1 lg:w-24 lg:h-24" alt="" />
 
-        <div className="flex flex-col p-4 mx-10 mt-[20vh] space-y-4 text-sm rounded-lg shadow-sm lg:text-2xl lg:mx-[25vw] shadow-gray-400/50 bg-white/10 font-poppins ">
+        <div className="flex flex-col p-4 mx-10 mt-[10vh] lg:mt-[20vh] space-y-4 text-sm rounded-lg shadow-sm lg:text-2xl lg:mx-[25vw] shadow-gray-400/50 bg-white/10 font-poppins ">
           <h1 className="text-white ">
             Computer Society of India is the first and largest body of computer
             professionals in India. It was started on 6th March 1965 by a few
