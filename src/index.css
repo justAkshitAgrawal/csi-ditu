@@ -6,4 +6,7 @@
 @tailwind utilities;
 
 @layer components {
+  .menu-item {
+    @apply text-3xl text-white font-poppins pb-4 cursor-pointer hover:scale-110 transition-all;
+  }
 }

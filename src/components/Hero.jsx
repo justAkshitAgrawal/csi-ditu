@@ -12,9 +12,10 @@ function Hero() {
           <div className="absolute h-[8vh] bg-black heropattern-circuitboard-gray-900 lg:w-[5vw] lg:h-[10vh] bottom-0  w-[12vw] -right-12  lg:-right-20 "></div>
           <h1 className="absolute text-4xl text-white lg:text-6xl font-poppins left-5 top-12 lg:top-20 ">
             CSI <br /> DITU <br />
-            <span className="flex items-center text-lg lg:text-3xl ">
+            <span className="flex items-center mt-3 text-lg lg:text-3xl ">
               Student <FaCode className="w-5 h-5 mx-2 lg:h-7 lg:w-7" /> Chapter
             </span>
+            <span className="text-sm lg:text-xl">Technical Club</span>
           </h1>
         </div>
       </div>

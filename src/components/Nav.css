@@ -1,12 +1,13 @@
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+  width: 100%;
 }
 
 /* General sidebar styles */
 .bm-menu {
   background: #373a47;
-  padding: 2.5em 1.5em 0;
+  padding: 38vh 1.5em 0;
   font-size: 1.15em;
 }
 
@@ -45,17 +46,16 @@
 }
 
 /* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: gray;
-}
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  width: 50px;
+  height: 50px;
+  background: white;
 }
