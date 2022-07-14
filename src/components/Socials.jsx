@@ -1,11 +1,13 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaCode, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import "./Hero.css";
 
 function Socials() {
   return (
     <div className="relative ">
       <div className="absolute inset-0 px-4 rounded bg-gradient-to-r from-pink-500 to-purple-500 blur-2xl " />
+      <FaCode className="absolute w-20 h-20 text-white -top-7 left-14 lg:bottom-6 opacity-10" />
+
       <div className="relative px-10 py-1 rounded-lg ">
         <div className="flex items-center space-x-5">
           <a
